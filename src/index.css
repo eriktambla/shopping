@@ -1,0 +1,176 @@
+/* RESET */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+  font-family: 'Hind Guntur', sans-serif !important;
+}
+
+/* Header styling */
+
+#navbar {
+  background: #FEF5E6;
+  border: 5px solid #F54A45;
+  padding-bottom: 0vw;
+  padding-top: 1vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  margin-left: 0.4rem;
+  border-right: 0;
+}
+
+#brand {
+  font-family: 'Kenia';
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 7vw;
+  color: #F54A45;
+}
+
+#price {
+  font-family: 'Source Code Pro', monospace;;
+  font-size: 7vw;
+  padding-bottom: 4vh;
+  color: #1C0F13;
+}
+
+/* Cart styling */
+
+#basket {
+  box-sizing: border-box;
+  background: #FEF5E6;
+  border: 5px solid #F54A45;
+  font-family: 'Hind Guntur' sans-serif;
+  min-height: 110vh;
+  padding: 0;
+}
+
+#thecart {
+  font-family: 'Kenia';
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 5vw;
+  color: #F54A45;
+  margin-top: 2vw;
+}
+
+#carttable {
+  margin: 1vw;
+}
+
+#plusbtn{
+  border-radius: 0;
+  border-width: 0;
+  background-color: #BEE7E7;
+
+}
+
+#minusbtn {
+  border-radius: 0;
+  border-width: 0;
+  background-color: #F54A45;
+}
+
+/* Search styling */
+
+#search {
+  box-sizing: border-box;
+  background: #FEF5E6;
+  border: 5px solid #F54A45;
+  margin-left: 0vw;
+  margin-top: 0vw;
+  border-right: 0;
+  border-top: 0;
+  margin-left: 0.4rem;
+}
+
+#search ::placeholder {
+  color: #1C0F13;
+  margin: 0;
+  padding: 0;
+}
+
+
+#formcontrol {
+  background: #FEF5E6;
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+}
+
+/* Product view and card styling */
+
+#main > div:nth-child(2) > div:nth-child(2) {
+  background-color: #BEE7E7;
+  min-height: 100vh;
+}
+
+#card {
+  box-sizing: border-box;
+  background: #FEF5E6;
+  border-radius: 0;
+  border-width: 0;
+  margin: 0;
+  padding: 0;
+  margin-top: 1vh;
+}
+
+#card > img {
+  border-radius: 0;
+}
+
+#cardsrow {
+  padding-left: 2vw;
+}
+
+#addtocart {
+  background-color: #F54A45;
+  border-radius: 0;
+  border-width: 0;
+  color: #1C0F13;
+  font-family: 'Hind Guntur' sans-serif;
+}
+
+#readmore {
+  background-color: #FEF5E6;
+  border-radius: 0;
+  color: #1C0F13;
+  border-width: 0;
+  font-family: 'Hind Guntur' sans-serif;
+  padding: 0;
+}
+
+#readmore > h2 > button {
+  color:#1C0F13;
+  background-color: #FEF5E6;
+  border-width: 0;
+  border-color: #FEF5E6;
+}
+
+#readmore > h2 {
+  background-color: #FEF5E6;
+}
+
